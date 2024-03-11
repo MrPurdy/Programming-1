@@ -1,0 +1,10 @@
+C:\Users\purdy.c\Desktop\Programming-1\Prog76a\bin\Debug\Prog76a.exe.config
+C:\Users\purdy.c\Desktop\Programming-1\Prog76a\bin\Debug\Prog76a.exe
+C:\Users\purdy.c\Desktop\Programming-1\Prog76a\bin\Debug\Prog76a.dll
+C:\Users\purdy.c\Desktop\Programming-1\Prog76a\bin\Debug\IronPython.dll
+C:\Users\purdy.c\Desktop\Programming-1\Prog76a\bin\Debug\IronPython.Modules.dll
+C:\Users\purdy.c\Desktop\Programming-1\Prog76a\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\purdy.c\Desktop\Programming-1\Prog76a\bin\Debug\Microsoft.Scripting.dll
+C:\Users\purdy.c\Desktop\Programming-1\Prog76a\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\purdy.c\Desktop\Programming-1\Prog76a\obj\Debug\Prog76a.pyprojResolveAssemblyReference.cache
+C:\Users\purdy.c\Desktop\Programming-1\Prog76a\obj\Debug\Prog76a.exe

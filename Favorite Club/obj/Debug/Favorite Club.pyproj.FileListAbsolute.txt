@@ -1,0 +1,12 @@
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\bin\Debug\Favorite Club.exe.config
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\bin\Debug\Favorite Club.exe
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\bin\Debug\Favorite Club.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\bin\Debug\IronPython.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\bin\Debug\IronPython.Modules.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\bin\Debug\Microsoft.Scripting.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\obj\Debug\Favorite Club.pyprojResolveAssemblyReference.cache
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\obj\Debug\Favorite_Club.MainForm.resources
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\obj\Debug\Favorite Club.pyproj.GenerateResource.Cache
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Club\obj\Debug\Favorite Club.exe

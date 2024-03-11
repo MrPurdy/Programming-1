@@ -1,0 +1,12 @@
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\obj\Debug\AboutMe.pyprojResolveAssemblyReference.cache
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\obj\Debug\AboutMe.MainForm.resources
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\obj\Debug\AboutMe.pyproj.GenerateResource.Cache
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\bin\Debug\AboutMe.exe.config
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\bin\Debug\AboutMe.exe
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\bin\Debug\AboutMe.dll
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\bin\Debug\IronPython.dll
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\bin\Debug\IronPython.Modules.dll
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\bin\Debug\Microsoft.Scripting.dll
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\purdy.c\Desktop\Programming-1\AboutMe\obj\Debug\AboutMe.exe

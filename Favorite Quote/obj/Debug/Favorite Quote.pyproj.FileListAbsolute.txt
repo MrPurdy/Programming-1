@@ -1,0 +1,12 @@
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\obj\Debug\Favorite Quote.pyprojResolveAssemblyReference.cache
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\obj\Debug\Favorite_Quote.MainForm.resources
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\obj\Debug\Favorite Quote.pyproj.GenerateResource.Cache
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\bin\Debug\Favorite Quote.exe.config
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\bin\Debug\Favorite Quote.exe
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\bin\Debug\Favorite Quote.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\bin\Debug\IronPython.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\bin\Debug\IronPython.Modules.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\bin\Debug\Microsoft.Scripting.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\purdy.c\Desktop\Programming-1\Favorite Quote\obj\Debug\Favorite Quote.exe

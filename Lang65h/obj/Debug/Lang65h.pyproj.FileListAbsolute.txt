@@ -1,0 +1,12 @@
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\bin\Debug\Lang65h.exe.config
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\bin\Debug\Lang65h.exe
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\bin\Debug\Lang65h.dll
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\bin\Debug\IronPython.dll
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\bin\Debug\IronPython.Modules.dll
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\bin\Debug\Microsoft.Scripting.dll
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\obj\Debug\Lang65h.pyprojResolveAssemblyReference.cache
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\obj\Debug\Lang65h.MainForm.resources
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\obj\Debug\Lang65h.pyproj.GenerateResource.Cache
+C:\Users\purdy.c\Documents\Programming-1\Lang65h\obj\Debug\Lang65h.exe
