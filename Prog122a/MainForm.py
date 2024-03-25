@@ -10,20 +10,11 @@ class MainForm(Form):
 		self.InitializeComponent()
 	
 	def InitializeComponent(self):
-		self._listBox1 = System.Windows.Forms.ListBox()
 		self._button1 = System.Windows.Forms.Button()
 		self._button2 = System.Windows.Forms.Button()
 		self._button3 = System.Windows.Forms.Button()
+		self._listBox1 = System.Windows.Forms.ListBox()
 		self.SuspendLayout()
-		# 
-		# listBox1
-		# 
-		self._listBox1.BackColor = System.Drawing.Color.PeachPuff
-		self._listBox1.FormattingEnabled = True
-		self._listBox1.Location = System.Drawing.Point(-2, 5)
-		self._listBox1.Name = "listBox1"
-		self._listBox1.Size = System.Drawing.Size(548, 290)
-		self._listBox1.TabIndex = 0
 		# 
 		# button1
 		# 
@@ -58,14 +49,23 @@ class MainForm(Form):
 		self._button3.UseVisualStyleBackColor = False
 		self._button3.Click += self.Button3Click
 		# 
+		# listBox1
+		# 
+		self._listBox1.BackColor = System.Drawing.Color.Goldenrod
+		self._listBox1.FormattingEnabled = True
+		self._listBox1.Location = System.Drawing.Point(12, 13)
+		self._listBox1.Name = "listBox1"
+		self._listBox1.Size = System.Drawing.Size(523, 277)
+		self._listBox1.TabIndex = 4
+		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.Color.LightCoral
 		self.ClientSize = System.Drawing.Size(547, 395)
+		self.Controls.Add(self._listBox1)
 		self.Controls.Add(self._button3)
 		self.Controls.Add(self._button2)
 		self.Controls.Add(self._button1)
-		self.Controls.Add(self._listBox1)
 		self.Name = "MainForm"
 		self.Text = "Prog122a"
 		self.ResumeLayout(False)
