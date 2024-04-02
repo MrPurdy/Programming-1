@@ -76,7 +76,7 @@ class MainForm(Form):
 		self._listBox1.Items.Add(heading)
 		for num in range(-25, 25+1):
 			ncube = num**3
-			ncbrt = 
+			ncbrt = num**(1.00/3.00)
 			msg = str(num) + "\t\t" + str(ncbrt) + "\t\t" + str(ncube)
 			self._listBox1.Items.Add(msg)
 	def Button2Click(self, sender, e):
