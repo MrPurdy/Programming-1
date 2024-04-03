@@ -74,10 +74,14 @@ class MainForm(Form):
 	def Button1Click(self, sender, e):
 		heading = "Number\t\tCube Root\t\tCube"
 		self._listBox1.Items.Add(heading)
-		for num in range(-25, 25+1):
-			ncube = num**3
-			ncbrt = num**(1.00/3.00)
-			msg = str(num) + "\t\t" + str(ncbrt) + "\t\t" + str(ncube)
+		for num in range(1, 25+1):
+			pcube = num**3
+			pcbrt = num**(1.0/3.0)
+			
+		for nnum in range(-25, 1-1):
+			ncube = nnum**3 * -1
+			ncbrt = abs(pcbrt) * -1
+			msg = str(num) + "\t\t" + str(pcbrt) + "\t\t" + str(pcube) + str(nnum) + "\t\t" + str(ncbrt) + "\t\t" + str(ncube)
 			self._listBox1.Items.Add(msg)
 	def Button2Click(self, sender, e):
 		self._listBox1.Items.Clear()
