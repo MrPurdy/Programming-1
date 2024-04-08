@@ -1,0 +1,10 @@
+C:\Users\purdy.c\Desktop\Programming-1\FruitLoops\obj\Debug\FruitLoops.pyprojResolveAssemblyReference.cache
+C:\Users\purdy.c\Desktop\Programming-1\FruitLoops\bin\Debug\FruitLoops.exe.config
+C:\Users\purdy.c\Desktop\Programming-1\FruitLoops\bin\Debug\FruitLoops.exe
+C:\Users\purdy.c\Desktop\Programming-1\FruitLoops\bin\Debug\FruitLoops.dll
+C:\Users\purdy.c\Desktop\Programming-1\FruitLoops\bin\Debug\IronPython.dll
+C:\Users\purdy.c\Desktop\Programming-1\FruitLoops\bin\Debug\IronPython.Modules.dll
+C:\Users\purdy.c\Desktop\Programming-1\FruitLoops\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\purdy.c\Desktop\Programming-1\FruitLoops\bin\Debug\Microsoft.Scripting.dll
+C:\Users\purdy.c\Desktop\Programming-1\FruitLoops\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\purdy.c\Desktop\Programming-1\FruitLoops\obj\Debug\FruitLoops.exe
