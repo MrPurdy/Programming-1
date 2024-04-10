@@ -14,6 +14,7 @@ class MainForm(Form):
 		self._button1 = System.Windows.Forms.Button()
 		self._button2 = System.Windows.Forms.Button()
 		self._button3 = System.Windows.Forms.Button()
+		self._listBox2 = System.Windows.Forms.ListBox()
 		self.SuspendLayout()
 		# 
 		# listBox1
@@ -22,7 +23,7 @@ class MainForm(Form):
 		self._listBox1.FormattingEnabled = True
 		self._listBox1.Location = System.Drawing.Point(9, 12)
 		self._listBox1.Name = "listBox1"
-		self._listBox1.Size = System.Drawing.Size(648, 264)
+		self._listBox1.Size = System.Drawing.Size(316, 264)
 		self._listBox1.TabIndex = 0
 		# 
 		# button1
@@ -58,10 +59,20 @@ class MainForm(Form):
 		self._button3.UseVisualStyleBackColor = False
 		self._button3.Click += self.Button3Click
 		# 
+		# listBox2
+		# 
+		self._listBox2.BackColor = System.Drawing.Color.GreenYellow
+		self._listBox2.FormattingEnabled = True
+		self._listBox2.Location = System.Drawing.Point(331, 12)
+		self._listBox2.Name = "listBox2"
+		self._listBox2.Size = System.Drawing.Size(316, 264)
+		self._listBox2.TabIndex = 4
+		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.Color.Moccasin
 		self.ClientSize = System.Drawing.Size(669, 393)
+		self.Controls.Add(self._listBox2)
 		self.Controls.Add(self._button3)
 		self.Controls.Add(self._button2)
 		self.Controls.Add(self._button1)
@@ -79,7 +90,7 @@ class MainForm(Form):
 			ncube = ((nnum**3) * -1) * -1
 			ncbrt = abs(pcbrt) * -1
 			
-			msg =str(nnum) + "\t\t" + str(ncbrt) + "\t\t" + str(ncube)
+			msg = str(nnum) + "\t\t" + str(ncbrt) + "\t\t" + str(ncube)
 			self._listBox1.Items.Add(msg)
 			
 		for num in range(1, 27-1):

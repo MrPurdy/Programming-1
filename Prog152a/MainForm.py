@@ -71,10 +71,9 @@ class MainForm(Form):
 
 
 	def Button1Click(self, sender, e):
-		for num in range(1, 27-1):
-			pcube = num**3
-			pcbrt = num**(1.0/3.0)
-			msg = str(num) + "\t\t" + str(pcbrt) + "\t\t" + str(pcube)
+		for num in range(3, 9669):
+			sum = 
+			msg = str(sum)
 			self._listBox1.Items.Add(msg)
 
 	def Button2Click(self, sender, e):
