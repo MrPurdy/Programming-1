@@ -71,13 +71,15 @@ class MainForm(Form):
 
 
 	def Button1Click(self, sender, e):
-		for num in range(3, 9669):
-			sum = 
+		heading = "Sum"
+		self._listBox1.Items.Add(heading)
+		for num in range(3, 9669-2):
+			sum = num
 			msg = str(sum)
 			self._listBox1.Items.Add(msg)
 
 	def Button2Click(self, sender, e):
-		self._listBox.Items.Clear
+		self._listBox.Items.Clear()
 
 	def Button3Click(self, sender, e):
-		Application.Exit
+		Application.Exit()
