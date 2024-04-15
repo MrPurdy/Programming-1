@@ -1,0 +1,10 @@
+C:\Users\purdy.c\Desktop\Programming-1\Slices\bin\Debug\Slices.exe.config
+C:\Users\purdy.c\Desktop\Programming-1\Slices\bin\Debug\Slices.exe
+C:\Users\purdy.c\Desktop\Programming-1\Slices\bin\Debug\Slices.dll
+C:\Users\purdy.c\Desktop\Programming-1\Slices\bin\Debug\IronPython.dll
+C:\Users\purdy.c\Desktop\Programming-1\Slices\bin\Debug\IronPython.Modules.dll
+C:\Users\purdy.c\Desktop\Programming-1\Slices\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\purdy.c\Desktop\Programming-1\Slices\bin\Debug\Microsoft.Scripting.dll
+C:\Users\purdy.c\Desktop\Programming-1\Slices\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\purdy.c\Desktop\Programming-1\Slices\obj\Debug\Slices.pyprojResolveAssemblyReference.cache
+C:\Users\purdy.c\Desktop\Programming-1\Slices\obj\Debug\Slices.exe

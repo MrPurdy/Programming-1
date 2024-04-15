@@ -73,11 +73,12 @@ class MainForm(Form):
 	def Button1Click(self, sender, e):
 		heading = "Sum"
 		self._listBox1.Items.Add(heading)
-		for num in range(3, 9669-2):
-			sum = num
-			msg = str(sum)
-			self._listBox1.Items.Add(msg)
-
+		for num in range(3, 9669, +3):
+			sum = 
+			
+		msg = "The sum of the multiples of 3, from 3 to 9669 is" + str(sum)
+		self._listBox1.Items.Add(msg)
+		
 	def Button2Click(self, sender, e):
 		self._listBox.Items.Clear()
 
