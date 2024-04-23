@@ -1,0 +1,10 @@
+C:\Users\purdy.c\Desktop\Programming-1\SlotMachine\bin\Debug\SlotMachine.exe.config
+C:\Users\purdy.c\Desktop\Programming-1\SlotMachine\bin\Debug\SlotMachine.exe
+C:\Users\purdy.c\Desktop\Programming-1\SlotMachine\bin\Debug\SlotMachine.dll
+C:\Users\purdy.c\Desktop\Programming-1\SlotMachine\bin\Debug\IronPython.dll
+C:\Users\purdy.c\Desktop\Programming-1\SlotMachine\bin\Debug\IronPython.Modules.dll
+C:\Users\purdy.c\Desktop\Programming-1\SlotMachine\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\purdy.c\Desktop\Programming-1\SlotMachine\bin\Debug\Microsoft.Scripting.dll
+C:\Users\purdy.c\Desktop\Programming-1\SlotMachine\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\purdy.c\Desktop\Programming-1\SlotMachine\obj\Debug\SlotMachine.pyprojResolveAssemblyReference.cache
+C:\Users\purdy.c\Desktop\Programming-1\SlotMachine\obj\Debug\SlotMachine.exe
