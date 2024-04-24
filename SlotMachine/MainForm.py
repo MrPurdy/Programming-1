@@ -304,7 +304,7 @@ class MainForm(Form):
 		# Copy these (above) into timerTick
 		
 		if self._textBox1.Text == "":
-			MessageBox.Show("You must enbter an amount to bet first!")
+			MessageBox.Show("You must enter an amount to bet first!")
 			return
 		
 		money = float(self._label3.Text)
