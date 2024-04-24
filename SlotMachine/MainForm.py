@@ -149,6 +149,7 @@ class MainForm(Form):
 		self._label3.Name = "label3"
 		self._label3.Size = System.Drawing.Size(122, 23)
 		self._label3.TabIndex = 10
+		self._label3.Text = "100"
 		self._label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
 		# 
 		# progressBar1
@@ -327,19 +328,19 @@ class MainForm(Form):
 			num2 = self.num2
 			num3 = self.num3
 			
-			if num1 == 1 and num 2 == 1 and num3 == 1:
+			if num1 == 1 and num2 == 1 and num3 == 1:
 				money2 += bet * 50
 				
-			if num1 == 2 and num 2 == 2 and num3 == 2:
+			if num1 == 2 and num2 == 2 and num3 == 2:
 				money2 += bet * 200
 				
-			if num1 == 3 and num 2 == 3 and num3 == 3:
+			if num1 == 3 and num2 == 3 and num3 == 3:
 				money2 += bet * 1500
 				
-			if num1 == 4 and num 2 == 4 and num3 == 4:
+			if num1 == 4 and num2 == 4 and num3 == 4:
 				money2 += bet * 4000
 				
-			if num1 == 5 and num 2 == 5 and num3 == 5:
+			if num1 == 5 and num2 == 5 and num3 == 5:
 				money2 += bet * 10000
 				
 			self.num1 = 0
@@ -375,6 +376,39 @@ class MainForm(Form):
 			num2 = rnd.Next(1, 6)
 			num3 = rnd.Next(1, 6)
 			
+			# Copy/paste this for num2/pb2 and num3/pb3
+			if num1 == 1:
+				pb1.BackgroundImage = im1
+			elif num1 == 2:
+				pb1.BackgroundImage = im2
+			elif num1 == 3:
+				pb1.BackgroundImage = im3
+			elif num1 == 4:
+				pb1.BackgroundImage = im4
+			elif num1 == 5:
+				pb1.BackgroundImage = im5
+				
+			if num2 == 1:
+				pb2.BackgroundImage = im1
+			elif num2 == 2:
+				pb2.BackgroundImage = im2
+			elif num2 == 3:
+				pb2.BackgroundImage = im3
+			elif num2 == 4:
+				pb2.BackgroundImage = im4
+			elif num2 == 5:
+				pb2.BackgroundImage = im5
+				
+			if num3 == 1:
+				pb3.BackgroundImage = im1
+			elif num3 == 2:
+				pb3.BackgroundImage = im2
+			elif num3 == 3:
+				pb3.BackgroundImage = im3
+			elif num3 == 4:
+				pb3.BackgroundImage = im4
+			elif num3 == 5:
+				pb3.BackgroundImage = im5
 			
 			self._progressBar1.Increment(1)
 			if self._progressBar1.Value == self._progressBar1.Maximum:
