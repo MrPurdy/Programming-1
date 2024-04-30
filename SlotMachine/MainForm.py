@@ -80,13 +80,12 @@ class MainForm(Form):
 		# 
 		self._pictureBox4.BackColor = System.Drawing.Color.White
 		self._pictureBox4.Image = resources.GetObject("pictureBox4.Image")
-		self._pictureBox4.Location = System.Drawing.Point(12, 247)
+		self._pictureBox4.Location = System.Drawing.Point(37, 223)
 		self._pictureBox4.Name = "pictureBox4"
-		self._pictureBox4.Size = System.Drawing.Size(549, 216)
+		self._pictureBox4.Size = System.Drawing.Size(399, 216)
 		self._pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
 		self._pictureBox4.TabIndex = 3
 		self._pictureBox4.TabStop = False
-		self._pictureBox4.Visible = False
 		# 
 		# button1
 		# 
@@ -170,6 +169,7 @@ class MainForm(Form):
 		self._pictureBox5.Size = System.Drawing.Size(64, 50)
 		self._pictureBox5.TabIndex = 12
 		self._pictureBox5.TabStop = False
+		self._pictureBox5.Visible = False
 		# 
 		# pictureBox6
 		# 
@@ -181,6 +181,7 @@ class MainForm(Form):
 		self._pictureBox6.Size = System.Drawing.Size(64, 50)
 		self._pictureBox6.TabIndex = 13
 		self._pictureBox6.TabStop = False
+		self._pictureBox6.Visible = False
 		# 
 		# pictureBox7
 		# 
@@ -192,6 +193,7 @@ class MainForm(Form):
 		self._pictureBox7.Size = System.Drawing.Size(64, 50)
 		self._pictureBox7.TabIndex = 14
 		self._pictureBox7.TabStop = False
+		self._pictureBox7.Visible = False
 		# 
 		# pictureBox8
 		# 
@@ -203,6 +205,7 @@ class MainForm(Form):
 		self._pictureBox8.Size = System.Drawing.Size(64, 50)
 		self._pictureBox8.TabIndex = 15
 		self._pictureBox8.TabStop = False
+		self._pictureBox8.Visible = False
 		# 
 		# pictureBox9
 		# 
@@ -214,6 +217,7 @@ class MainForm(Form):
 		self._pictureBox9.Size = System.Drawing.Size(64, 50)
 		self._pictureBox9.TabIndex = 16
 		self._pictureBox9.TabStop = False
+		self._pictureBox9.Visible = False
 		# 
 		# pictureBox10
 		# 
@@ -225,6 +229,7 @@ class MainForm(Form):
 		self._pictureBox10.Size = System.Drawing.Size(64, 50)
 		self._pictureBox10.TabIndex = 17
 		self._pictureBox10.TabStop = False
+		self._pictureBox10.Visible = False
 		# 
 		# pictureBox11
 		# 
@@ -236,6 +241,7 @@ class MainForm(Form):
 		self._pictureBox11.Size = System.Drawing.Size(64, 50)
 		self._pictureBox11.TabIndex = 18
 		self._pictureBox11.TabStop = False
+		self._pictureBox11.Visible = False
 		# 
 		# timer1
 		# 

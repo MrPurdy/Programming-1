@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{BE87BCC3-59A6-4681-A355-4EF445B273E8}</ProjectGuid>
+    <ProjectGuid>{5FB8D2BC-F0CF-4D8E-909D-D92C3438B6FD}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <RootNamespace>Pg247Radio</RootNamespace>
-    <AssemblyName>Pg247Radio</AssemblyName>
+    <RootNamespace>Pg268FatCalc</RootNamespace>
+    <AssemblyName>Pg268FatCalc</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>

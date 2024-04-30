@@ -1,0 +1,12 @@
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\bin\Debug\Pg247Radio.exe.config
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\bin\Debug\Pg247Radio.exe
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\bin\Debug\Pg247Radio.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\bin\Debug\IronPython.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\bin\Debug\IronPython.Modules.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\bin\Debug\Microsoft.Scripting.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\obj\Debug\Pg247Radio.pyprojResolveAssemblyReference.cache
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\obj\Debug\Pg247Radio.MainForm.resources
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\obj\Debug\Pg247Radio.pyproj.GenerateResource.Cache
+C:\Users\purdy.c\Desktop\Programming-1\Pg247Radio\obj\Debug\Pg247Radio.exe
