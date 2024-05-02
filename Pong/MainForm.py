@@ -136,7 +136,7 @@ class MainForm(Form):
 		tleft = self._timerleft
 		tright = self._timerright
 		bl = self._lblball
-		lblleft = self._lblleft
+		lblf = self._lblleft
 		lbrt = self._lblright
 		title = self._lbltitle
 		
