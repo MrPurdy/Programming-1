@@ -129,7 +129,78 @@ class MainForm(Form):
 		pass
 
 	def MainFormKeyDown(self, sender, e):
-		pass
+		tball = self._timerball
+		tdum = self._timerdummy
+		tbool = self._timerboolean
+		tmulti = self._timermulti
+		tleft = self._timerleft
+		tright = self._timerright
+		bl = self._lblball
+		lblleft = self._lblleft
+		lbrt = self._lblright
+		title = self._lbltitle
+		
+		def reset():
+			title.Visible = True
+			title.Text = "Press Enter to start or M to start Multiplayer"
+			self._leftscore.Text = "0"
+			self._rightscore.Text = "0"
+			tbal.Enabled = False
+			tdum.Enabled = False
+			tbool.Enabled = False
+			tmult.Enabled = False
+			tleft.Enabled = False
+			tright.Enabled = False
+			bl.Left = self.Width // 2
+			bl.Top = self.Height // 2
+			lblf.Top = (self.Height // 2) - 100 + lblf.Height
+			lbrt.Top = (self.Height // 2) - 100 + lbrt.Height
+			""" TODO: RESET SECRETS """
+			bl.BackColor = Color.Black
+			
+		if e.KeyCode == Keys.R:
+			reset()
+			
+		""" TODO: SECRET CONTROL """
+		
+		if e.KeyCode == Keys.Enter:
+			tball.Enabled = True
+			tdum.Enabled = True
+			tbool.Enabled = True
+			if tmult.Enabled:
+				tbool.Enabled = False
+			title.Visible = False
+			
+		if e.KeyCode == Keys.M:
+			reset()
+			title.Visible = True
+			title.Text = "Use W and S to move the left paddle; hit Enter to start"
+			tmult.Enabled = True
+			
+		if tdum.Enabled:
+			if e.KeyCode == Keys.Up:
+				self.flagright = False
+				tright.Enabled = True
+			elif e.KeyCode == Keys.Down:
+				self.flagright = True
+				tright.Enabled = True
+			elif tright.Enablked and self.flagright == False:
+				tright.Enabled = False
+				
+			if e.KeyCode == Keys.Up:
+				self.flagleft = False
+				tleft.Enabled = True
+			elif e.KeyCode == Keys.Down:
+				self.flagleft = True
+				tleft.Enabled = True
+			elif tleft.Enabled and self.flagleft == False:
+				tleft.Enabled = False
+				
+		if tmult.Enabled and tball.Enabled:
+			if e.keyCode == Keys.W:
+				pass
+			elif: e.KEyCode == Keys.S:
+				pass
 
 	def MainFormLoad(self, sender, e):
 		""" TODO: ADD 3 UNIQUE SECRETS/CHEATS/EASTER EGGS
