@@ -210,6 +210,9 @@ class MainForm(Form):
 		elif decSalesAmount >= 22000:
 			decCommissionRate = 0.15
 			
+		decCommissionAmount = decSalesAmount * decCommissionRate
+		decNetPay = decCommissionAmount - decAdvancedPayAmount
+			
 			
 		self._label6.Text = str(round(decCommissionRate, 2))
 		self._label7.Text = str(round(decCommissionAmount, 2))
