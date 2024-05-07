@@ -89,6 +89,7 @@ class MainForm(Form):
 					self._lblright.Name = "lblright"
 					self._lblright.Size = System.Drawing.Size(20, 100)
 					self._lblright.TabIndex = 5
+					self._lblright.Click += self.LblrightClick
 					# 
 					# timerright
 					# 
@@ -157,8 +158,7 @@ class MainForm(Form):
         
         if ball.Location.X <= 0 or \
            (ball.Location.X < lpdl.Left - 20 and ball.Location.Y < lpdl.Top):
-               """ TODO: FINISH LEFT BOUNDARY """
-               pass
+        
         
         if ball.Location.X >= self.Width or \
            (ball.Location.X > rpdl.Right + 20 and ball.Location.Y > rpdl.Top):
@@ -166,6 +166,18 @@ class MainForm(Form):
                ball.Left = self.Width // 2
                ball.Top = self.Height // 2
                self._leftscore.Text = str(lscore)
+               
+               
+       	if ball.Location.X <= 0 or \
+           (ball.Location.X > rpdl.Left - 20 and ball.Location.Y > rpdl.Top):
+        
+        
+        if ball.Location.X >= self.Width or \
+           (ball.Location.X < lpdl.Right + 20 and ball.Location.Y < lpdl.Top):
+               rscore += 1
+               ball.Left = self.Width // 2
+               ball.Top = self.Height // 2
+               self._rightscore.Text = str(rscore)
         
         if lscore == 10:  # Left win condition
             self._timerball.Enabled = False
@@ -217,8 +229,8 @@ class MainForm(Form):
             """ TODO: RESET SECRETS """
             bl.BackColor = Color.White
             
-        if e.KeyCode == Keys.Add:
-        	self._rightscore.Text += 5
+       		
+        	
             
         if e.KeyCode == Keys.R:
             reset()
@@ -251,7 +263,6 @@ class MainForm(Form):
             elif tright.Enabled and self.flagright == False:
                 tright.Enabled = False
         
-        """ TODO: FINISH MULTIPLAYER CONTROLS """
         if tmult.Enabled and tball.Enabled:
             if e.KeyCode == Keys.W:
                 self.flagleft = False
@@ -291,3 +302,9 @@ class MainForm(Form):
         self._lblball.Top = self.Height // 2
         self._lbltitle.Width = self.Width - 25
         self._rightscore.Left = self.Width - 75 - self._rightscore.Width
+
+	def LblrightClick(self, sender, e):
+		rscore += 1
+        ball.Left = self.Width // 2
+        ball.Top = self.Height // 2
+        self._rightscore.Text = str(rscore)

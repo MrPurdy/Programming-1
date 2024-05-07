@@ -128,7 +128,12 @@ class MainForm(Form):
 
 
 	def Button1Click(self, sender, e):
-		pass
+		length = int(self._textBox1.Text)
+		width = int(self._textBox2.Text)
+		area = length * width
+		perim = 2 * length + 2 * width
+		self._label3.Text = str(area)
+		self._label4.Text = str(perim)
 
 	def Button2Click(self, sender, e):
 		self._textBox1.Text = ""
