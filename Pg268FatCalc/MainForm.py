@@ -128,12 +128,11 @@ class MainForm(Form):
 
 
 	def Button1Click(self, sender, e):
-		length = int(self._textBox1.Text)
-		width = int(self._textBox2.Text)
-		area = length * width
-		perim = 2 * length + 2 * width
-		self._label3.Text = str(area)
-		self._label4.Text = str(perim)
+		cal = int(self._textBox1.Text)
+		grams = int(self._textBox2.Text)
+		calsfromfat = grams * 9
+		percentagefat = calsfromfat / cal
+		self._label4.Text = str(percentagefat)
 
 	def Button2Click(self, sender, e):
 		self._textBox1.Text = ""
