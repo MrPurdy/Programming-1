@@ -1,0 +1,12 @@
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\bin\Debug\Pg198ScoreAvg.exe.config
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\bin\Debug\Pg198ScoreAvg.exe
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\bin\Debug\Pg198ScoreAvg.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\bin\Debug\IronPython.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\bin\Debug\IronPython.Modules.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\bin\Debug\Microsoft.Scripting.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\obj\Debug\Pg198ScoreAvg.pyprojResolveAssemblyReference.cache
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\obj\Debug\Pg198ScoreAvg.MainForm.resources
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\obj\Debug\Pg198ScoreAvg.pyproj.GenerateResource.Cache
+C:\Users\purdy.c\Desktop\Programming-1\Pg198ScoreAvg\obj\Debug\Pg198ScoreAvg.exe

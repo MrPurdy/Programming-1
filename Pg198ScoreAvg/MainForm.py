@@ -19,6 +19,9 @@ class MainForm(Form):
 		self._button1 = System.Windows.Forms.Button()
 		self._button2 = System.Windows.Forms.Button()
 		self._button3 = System.Windows.Forms.Button()
+		self._textBox1 = System.Windows.Forms.TextBox()
+		self._textBox2 = System.Windows.Forms.TextBox()
+		self._textBox3 = System.Windows.Forms.TextBox()
 		self.SuspendLayout()
 		# 
 		# label1
@@ -78,17 +81,15 @@ class MainForm(Form):
 		self._label6.Name = "label6"
 		self._label6.Size = System.Drawing.Size(132, 36)
 		self._label6.TabIndex = 5
-		self._label6.Text = "Enter Three Test Scores"
 		self._label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
 		# 
 		# label7
 		# 
-		self._label7.BackColor = System.Drawing.Color.SandyBrown
+		self._label7.BackColor = System.Drawing.Color.LightCoral
 		self._label7.Location = System.Drawing.Point(66, 301)
 		self._label7.Name = "label7"
 		self._label7.Size = System.Drawing.Size(203, 36)
 		self._label7.TabIndex = 6
-		self._label7.Text = "Enter Three Test Scores"
 		self._label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
 		# 
 		# button1
@@ -100,6 +101,7 @@ class MainForm(Form):
 		self._button1.TabIndex = 7
 		self._button1.Text = "Calculate Average"
 		self._button1.UseVisualStyleBackColor = False
+		self._button1.Click += self.Button1Click
 		# 
 		# button2
 		# 
@@ -110,6 +112,7 @@ class MainForm(Form):
 		self._button2.TabIndex = 8
 		self._button2.Text = "Clear"
 		self._button2.UseVisualStyleBackColor = False
+		self._button2.Click += self.Button2Click
 		# 
 		# button3
 		# 
@@ -120,11 +123,39 @@ class MainForm(Form):
 		self._button3.TabIndex = 9
 		self._button3.Text = "Exit"
 		self._button3.UseVisualStyleBackColor = False
+		self._button3.Click += self.Button3Click
+		# 
+		# textBox1
+		# 
+		self._textBox1.BackColor = System.Drawing.Color.PeachPuff
+		self._textBox1.Location = System.Drawing.Point(137, 82)
+		self._textBox1.Name = "textBox1"
+		self._textBox1.Size = System.Drawing.Size(179, 20)
+		self._textBox1.TabIndex = 10
+		# 
+		# textBox2
+		# 
+		self._textBox2.BackColor = System.Drawing.Color.PeachPuff
+		self._textBox2.Location = System.Drawing.Point(137, 136)
+		self._textBox2.Name = "textBox2"
+		self._textBox2.Size = System.Drawing.Size(179, 20)
+		self._textBox2.TabIndex = 11
+		# 
+		# textBox3
+		# 
+		self._textBox3.BackColor = System.Drawing.Color.PeachPuff
+		self._textBox3.Location = System.Drawing.Point(137, 186)
+		self._textBox3.Name = "textBox3"
+		self._textBox3.Size = System.Drawing.Size(179, 20)
+		self._textBox3.TabIndex = 12
 		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.Color.LightCoral
 		self.ClientSize = System.Drawing.Size(377, 430)
+		self.Controls.Add(self._textBox3)
+		self.Controls.Add(self._textBox2)
+		self.Controls.Add(self._textBox1)
 		self.Controls.Add(self._button3)
 		self.Controls.Add(self._button2)
 		self.Controls.Add(self._button1)
@@ -138,4 +169,27 @@ class MainForm(Form):
 		self.Name = "MainForm"
 		self.Text = "Pg198ScoreAvg"
 		self.ResumeLayout(False)
+		self.PerformLayout()
 
+
+	def Button1Click(self, sender, e):
+		Score1 = int(self._textBox1.Text)
+		Score2 = int(self._textBox2.Text)
+		Score3 = int(self._textBox3.Text)
+		Average = (Score1 + Score2 + Score3) / 3
+		self._label6.Text = str(Average)
+		if Average >= 95:
+			self._label7.Text = "Congratulations! Great Job!"
+		else:
+			self._label7.Text = ""
+		
+
+	def Button2Click(self, sender, e):
+		self._textBox1.Text = ""
+		self._textBox2.Text = ""
+		self._textBox3.Text = ""
+		self._label6.Text = ""
+		self._label7.Text = ""
+
+	def Button3Click(self, sender, e):
+		Application.Exit()

@@ -271,7 +271,7 @@ class MainForm(Form):
 	def Button7Click(self, sender, e):
 		num1 = int(self._textBox1.Text)
 	 	num2 = int(self._textBox2.Text)
-	 	mod = math.fmod(num1, num2)
+	 	mod = num1 % num2
 		self._label5.Text = " " + str(mod)
 		self._label2.Text = "Operation: MOD"
 
