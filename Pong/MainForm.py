@@ -159,7 +159,6 @@ class MainForm(Form):
         if ball.Location.X <= 0 or \
            (ball.Location.X < lpdl.Left - 20 and ball.Location.Y < lpdl.Top):
         
-        
         if ball.Location.X >= self.Width or \
            (ball.Location.X > rpdl.Right + 20 and ball.Location.Y > rpdl.Top):
                lscore += 1
